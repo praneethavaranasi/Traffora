@@ -884,7 +884,10 @@ def render_dashboard_page():
                 <div class="traffic-prediction-card">
                     <div class="card-header-row">
                         <h3 class="card-title-text">Traffic Prediction</h3>
-                        <span class="ai-powered-badge">AI Powered</span>
+                        <a href="{nav_url('Traffic Prediction')}" target="_self" class="ai-powered-badge" title="AI Model Active · Click to view Prediction Model Engine">
+                            <span class="ai-badge-dot"></span>
+                            <span>AI Powered</span>
+                        </a>
                     </div>
 
                     <!-- Location Selector -->
@@ -1152,7 +1155,7 @@ def render_subpage(page_name):
         <div style="background:#FFFFFF;border:1px solid #E5EAF0;border-radius:12px;padding:20px;box-shadow:0 2px 8px rgba(15,23,42,0.05);">
             <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
                 <h3 style="font-size:16px;font-weight:600;margin:0;">Metropolitan Live Telemetry & Node Feeds</h3>
-                <span class="ai-powered-badge">Live Sensor Grid Active</span>
+                <span class="ai-powered-badge"><span class="ai-badge-dot"></span>Live Sensor Grid Active</span>
             </div>
             <p style="font-size:13px;color:#667085;margin-bottom:16px;">Displaying 16 monitored metropolitan nodes across Hyderabad Central, Cyberabad & Secunderabad.</p>
             <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));gap:12px;">
@@ -1188,7 +1191,7 @@ def render_subpage(page_name):
         <div style="background:#FFFFFF;border:1px solid #E5EAF0;border-radius:12px;padding:20px;box-shadow:0 2px 8px rgba(15,23,42,0.05);">
             <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
                 <h3 style="font-size:16px;font-weight:600;margin:0;">AI Congestion Prediction & Simulation Engine</h3>
-                <span class="ai-powered-badge">Machine Learning Model Active</span>
+                <span class="ai-powered-badge"><span class="ai-badge-dot"></span>Machine Learning Model Active</span>
             </div>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
                 <div>
@@ -1232,7 +1235,7 @@ def render_subpage(page_name):
         <div style="background:#FFFFFF;border:1px solid #E5EAF0;border-radius:12px;padding:20px;box-shadow:0 2px 8px rgba(15,23,42,0.05);">
             <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
                 <h3 style="font-size:16px;font-weight:600;margin:0;">Intelligent Route Optimizer & Delay Mitigation</h3>
-                <span class="ai-powered-badge">Real-Time Routing</span>
+                <span class="ai-powered-badge"><span class="ai-badge-dot"></span>Real-Time Routing</span>
             </div>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
                 <div style="background:#EAF8EF;border:1px solid #BBF7D0;border-radius:10px;padding:16px;">
